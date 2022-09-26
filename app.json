@@ -4,10 +4,10 @@
     "slug": "digivikreta",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mainicon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/mainicon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mainicon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.digi.digivikreta"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/mainicon.png"
     }
   }
 }
